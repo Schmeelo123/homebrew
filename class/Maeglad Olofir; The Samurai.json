@@ -1434,7 +1434,32 @@
             "level": 3,
             "header": 1,
             "entries": [
-                "Those who walk the path of the Oni have either been born, or taken it upon themselves to become huge, terrifying monsters. Often shunned by those around them and prone to walking a cruel and evil path, most Oni Samurai are felled by their peers…"
+                "Those who walk the path of the Oni have either been born, or taken it upon themselves to become huge, terrifying monsters. Often shunned by those around them and prone to walking a cruel and evil path, most Oni Samurai are felled by their peers…",
+            {
+                "type": "refSubclassFeature",
+                "subclassFeature": "Saving Throws|Samurai|OSH2024|Oni|OSH2024|3"
+
+            }
+            ]
+        },
+        {
+            "name": "Saving Throws",
+            "source": "OSH2024",
+            "className": "Samurai",
+            "classSource": "OSH2024",
+            "subclassShortName": "Oni",
+            "subclassSource": "OSH2024",
+            "level": 3,
+            "header": 3,
+            "entries": [
+                "Some of your Oni Subclass Features will ask for a saving throw for targets to resist. The saving throw DC is calculated as follows:",
+                {
+                    "type": "abilityDc",
+                    "name": "Oni",
+                    "attributes": [
+                        "str"
+                    ]                   
+                }
             ]
         },
         {
